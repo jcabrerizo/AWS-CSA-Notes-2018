@@ -75,6 +75,7 @@
     - EFS - elastic file system
     - Glacier - data archival 
     - Snowball - large amounts of data to aws data center
+    - Snowmobile - Exabyte-scale data transfer service
     - Storage gateway - VM installed in datacenter or office - replicate info to S3
 
 - Databases:
