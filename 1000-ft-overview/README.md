@@ -24,6 +24,7 @@
 - Asia Pacific (Sydney) - `ap-southeast-2`
 - Asia Pacific (Mumbai) - `ap-south-1`
 - South America (Sao Paulo) - `sa-east-1`
+- AWS GovCloud (US)	- `us-gov-west-1`
 
 ### Availability Zones (AZ)
 
