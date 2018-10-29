@@ -80,9 +80,11 @@
 
 - Databases:
     - RDS - relation database service - postgres, mysql, oracle
+    - Aurora - relatinal database as service
     - DynamoDB - non relational db
     - Elasticache - cache things from db
     - Redshift - data warehousing business intelligence, complex queries
+    - Neptune -  graph database
     
 - Migration:
     - AWS Migration Hub - tracking service for moving to aws
@@ -96,6 +98,7 @@
     - Cloudfront - AWS content delivery network, store assets specific regions around the world
     - Route 53 - AWS DNS service - lookup ip to get ipv4 and ipv6 address
     - API Gateway - Serverless way of creating own api
+    - NAT Gateway - highly available NAT instance as a service
     - Direct Connect - Dedicated line from office directly into amazon, connects to VPC
 
 - Developer Tools:
