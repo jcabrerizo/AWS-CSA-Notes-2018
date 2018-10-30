@@ -6,7 +6,7 @@ First **EVER** AWS Service!
 
 Amazon SQS is a web service that gives you access to a message queue that can be used to store messages while waiting for a computer to process them.
 
-Amazon SQS is a distributed queue sustem that enables web service applications to quickly and reliably queue messages that one component in the application generates to be consumed by another component. A queue is a temporary repository for messages that are awaiting processing.
+Amazon SQS is a distributed queue system that enables web service applications to quickly and reliably queue messages that one component in the application generates to be consumed by another component. A queue is a temporary repository for messages that are awaiting processing.
 
 ### SQS Breakdown
 
@@ -97,7 +97,7 @@ _JSON Domain Registration Example_
 }
 ```
 
-### SWF vs. SQF
+### SWF vs. SQS
 
 - Amazon SWF has a retention period of 1 year vs SQS's 14 days retention
 - Amazon SWF presents a task-oriented API, whereas Amazon SQS offers a message-oriented API
@@ -106,11 +106,11 @@ _JSON Domain Registration Example_
 
 ## SNS - Simple Notification Service
 
-SNS is a web service that makes it easy to set up, operate and send notifications from the cloud. It provides developers with a highly scalable, flexible and cost-effective capability to publish messages from an application and immediately deliver them to subscribers or ther applications
+SNS is a web service that makes it easy to set up, operate and send notifications from the cloud. It provides developers with a highly scalable, flexible and cost-effective capability to publish messages from an application and immediately deliver them to subscribers or their applications
 
 May push notifications to Apple, Google, Fire OS and Windows devices as well as Android devices in China with Baidu Cloud Push.
 
-Besides pushing cloud notifications directly to mobile devices, SNS can also deliver notifications by SMS text message or emai, to SQS queues, or to any HTTP endpoint.
+Besides pushing cloud notifications directly to mobile devices, SNS can also deliver notifications by SMS text message or emai, to SQS queues, or to any HTTP endpoint, for example a helpdesk ticket system.
 
 SNS notifications can also trigger Lambda functions. When a messge is published to and SNS topic that has a Lambda function subscribed to it, the Lambda function is invoked with the payload of the published message. The Lambda function receives the message payload as an input parameter and can manipulate the information in the message, publish the message to other SNS topics, or send the message to other AWS services.
 
