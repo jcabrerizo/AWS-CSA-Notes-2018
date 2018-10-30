@@ -41,8 +41,8 @@ When performing overwrite PUTS and DELETES, these updated and/or deleted objects
 ### Storage Tiers
 
 - **S3 (Normal)**
-	- 99.99% availability, 99.(11 9’s )
-	- durable, reliable - stored redundantly across multiple devices in multiple facilities and is designed to sustain the loss of 2 facilities concurrently
+	- 99.99% availability 
+	- 99.(11 9’s ) durable, reliable - stored redundantly across multiple devices in multiple facilities and is designed to sustain the loss of 2 facilities concurrently
 
 - **S3 IA (Infrequent Access)**
 	- Used for data that is accessed less frequently but requires rapid access when needed
@@ -50,7 +50,8 @@ When performing overwrite PUTS and DELETES, these updated and/or deleted objects
 
 - **S3 Reduces Redundancy Storage (RRS)** 
 	- Designed to provide 99.99% durability and 99.99% availability of objects over a given year.
-
+- **S3 One Zone IA**
+	- Just for reproducible objects, is cheaper but offer less availability. It isn’t valid to real time / constant access.
 - **Glacier (Separate product from S3)**
 	- Very cost effective but used for data archival only
 	- Generally takes 3 - 5 hours to restore from glacier
