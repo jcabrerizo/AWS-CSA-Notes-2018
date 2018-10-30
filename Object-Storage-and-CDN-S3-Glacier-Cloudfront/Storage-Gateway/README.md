@@ -50,7 +50,7 @@ You can create storage volumes up to 32Tb in size and attach to them as iSCSI de
 
 Offers a durable, cost-effective solution to archive your data in AWS cloud. The VTL interface it provides lets you leverage your existing tape-based backup application infrastructure to store data on virtual tape cartridges that you create on your tape gateway.
 
-Each tape gateway is preconfigured with a media changer and tape drivers, which are available to your existing client backup applciations as iSCSI devices. You add tape cartridges as you need to archive your data. Supported by Netbackup, Backup Exec, Veeam etc.
+Each tape gateway is preconfigured with a media changer and tape drivers, which are available to your existing client backup applications as iSCSI devices. You add tape cartridges as you need to archive your data. Supported by Netbackup, Backup Exec, Veeam etc.
 
 ## Tips (Summary)
 
