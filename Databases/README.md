@@ -2,7 +2,7 @@
 
 ## Types of Databases
 
-### Relational Datbases
+### Relational Databases
 
 Relational databases are what most of us are all used to. They have been around since the 70's and you can think about them like spreadsheets!
 
@@ -19,11 +19,11 @@ Relational databases are what most of us are all used to. They have been around 
 
 **_Relational Databases Examples_**
 
+- Aurora (created by Amazon): 100% compatible with Mysql and PostgreSQL with 5 and 3 times better performance respectively
 - SQL Server
 - Oracle
 - MySQL
 - PostgreSQL
-- Aurora
 - MariaDB
 
 ### Non-Relational (NoSQL)
@@ -32,9 +32,8 @@ Relational databases are what most of us are all used to. They have been around 
   - Collection => Table
   - Document => Row
   - Key, Value Pairs => Columns
-
-**_Non Relational Databases Examples_**
-
+  
+### Document example
 ```json
 {
   "_id": "394ejojaj903091881dnna",
@@ -43,6 +42,9 @@ Relational databases are what most of us are all used to. They have been around 
   "location": "San Diego"
 }
 ```
+
+**_Non Relational Databases Examples_**
+  - MongoDB
 
 ### Data Warehousing
 
@@ -157,7 +159,7 @@ Read replicas allow you to have a read-only copy of your production database. Th
 
 ## DynamoDB
 
-DynamoDB is a fast and flexible NoSQL database service for all applications that need consistent, single-digit millisecond latency at any scale. It is a fully managed db nd supports both document and key-value data models. Its flexible data model and reliable performance make it a great fit for mobile, web, gaming, ad-tech, IoT etc.
+DynamoDB is a fast and flexible _NoSQL_ database service for all applications that need consistent, single-digit millisecond latency at any scale. It is a fully managed db and supports both document and key-value data models. Its flexible data model and reliable performance make it a great fit for mobile, web, gaming, ad-tech, IoT etc.
 
 - Stored on SSD Storage
 - Spread Across **3** geographically distinct data centers
@@ -168,7 +170,9 @@ DynamoDB is a fast and flexible NoSQL database service for all applications that
 
 - Strongly Consistent Reads
   - A stronly consistent read returns a result that reflects all writes that received a successful response prior to the read.
-
+  
+DynamoDB+DAX offer an extreme database performance.
+Using indexes in DynamoDB could decrease costs. Regardless what attributes from one row are read, the read costs is for the full item.
 **NOTE:** Super easy to scale! Push button scaling
 
 ### Pricing
@@ -280,7 +284,7 @@ Caching improves application performance by storing critical pieces of data in m
 
 ### What is Aurora?
 
-Aurora is a MySQL-compatible,relational database engine that combines the speed and availability of high-end commercial databases with the simplicity and cost effectiveness of open source databases. Aurora provides up to 5x better performance than MySQL at a price point of 1/10 that of a commercial database while delivering similar performance and availability
+Aurora is a MySQL/PostgreSQL-compatible,relational database engine that combines the speed and availability of high-end commercial databases with the simplicity and cost effectiveness of open source databases. Aurora provides up to 5x better performance than MySQL at a price point of 1/10 that of a commercial database while delivering similar performance and availability
 
 ### Scaling
 
